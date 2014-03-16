@@ -1,1 +1,2 @@
-This file was created by IntelliJ IDEA 12.1.6 for binding GitHub repository
+This Android game consists in adding numbers falling on the screen to reach a specific goal.
+Correct results add points and some additional time, while incorrect results remove time.
