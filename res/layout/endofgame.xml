@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:background="#ffffff">
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/end_of_game_label"
+            android:id="@+id/resultLabel" android:layout_gravity="center" android:textColor="#000000"
+            android:textSize="18dp"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="512"
+            android:id="@+id/result" android:layout_gravity="center" android:textSize="50dp"
+            android:layout_weight="1" android:gravity="center" android:textColor="#ff1e39"/>
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/end_of_game_returnButtom"
+            android:id="@+id/buttonReturn"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:onClick="returnToMain"/>
+</LinearLayout>
+

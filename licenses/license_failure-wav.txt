@@ -1,0 +1,3 @@
+########## file res/raw/failure.wav
+This work is licensed under the Attribution License (http://creativecommons.org/licenses/by/3.0/)
+its original name on freesound.org was CARTOON-BING-LOW.wav, created by user kantouth. The sound was not changed.

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Falling Numbers</string>
+    <string name="action_settings">Settings</string>
+    <string name="language_pref_title">Sprache</string>
+    <string name="language_pref_description">Language Wählen</string>
+    <string name="label_operation">Operation: </string>
+    <string name="label_operation_plus">+</string>
+    <string name="label_operation_minus">-</string>
+    <string name="label_difficulty">Schwierigkeit: </string>
+    <string name="label_difficulty_0">sehr leicht</string>
+    <string name="label_difficulty_1">leicht</string>
+    <string name="label_difficulty_2">schwierig</string>
+    <string name="label_difficulty_3">sehr schwierig</string>
+    <string name="button_play">Spiel</string>
+    <string name="points_suffix">punkte</string>
+    <string name="end_of_game_name">Spiel beendet</string>
+    <string name="end_of_game_label">Spiel beendet ist. Punkte:</string>
+    <string name="end_of_game_returnButtom">OK</string>
+</resources>

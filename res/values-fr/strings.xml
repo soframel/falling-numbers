@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Chûte de chiffres</string>
+    <string name="action_settings">Préférences</string>
+    <string name="language_pref_title">Langue</string>
+    <string name="language_pref_description">Choisir la langue</string>
+    <string name="label_operation">Opération: </string>
+    <string name="label_operation_plus">+</string>
+    <string name="label_operation_minus">-</string>
+    <string name="label_difficulty">Difficulté: </string>
+    <string name="label_difficulty_0">très facile</string>
+    <string name="label_difficulty_1">facile</string>
+    <string name="label_difficulty_2">difficile</string>
+    <string name="label_difficulty_3">très difficile</string>
+    <string name="button_play">Jouer</string>
+    <string name="points_suffix">points</string>
+    <string name="end_of_game_name">Jeu terminé</string>
+    <string name="end_of_game_label">Le jeu est terminé. Tes points:</string>
+    <string name="end_of_game_returnButtom">OK</string>
+</resources>

@@ -1,0 +1,3 @@
+########## file res/raw/success.wav
+This work is licensed under the Attribution License (http://creativecommons.org/licenses/by/3.0/)
+its original name on freesound.org was success_low.wav, created by user grunz. The sound was not changed.

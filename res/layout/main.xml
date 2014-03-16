@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:background="#ffffff">
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_operation"
+            android:id="@+id/labelOperation" android:textColor="#000000"/>
+        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+            <RadioButton android:id="@+id/radio_op_plus"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:text="@string/label_operation_plus"
+                         android:checked="true"
+                         android:background="@drawable/prefselector"
+                         android:button="@android:color/transparent"
+                         android:onClick="setOperationPlus" android:textColor="#000000"
+                         android:paddingLeft="20dp" android:paddingRight="20dp" android:paddingTop="5dp"
+                         android:paddingBottom="5dp" android:layout_margin="5dp"/>
+            <RadioButton android:id="@+id/radio_op_minus"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:text="@string/label_operation_minus"
+                         android:background="@drawable/prefselector"
+                         android:button="@android:color/transparent"
+                         android:onClick="setOperationMinus" android:textColor="#000000" android:paddingTop="5dp"
+                         android:paddingBottom="5dp" android:paddingLeft="20dp" android:paddingRight="20dp"
+                         android:layout_margin="5dp"/>
+        </RadioGroup>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_difficulty"
+            android:id="@+id/labelDifficulty" android:autoText="true" android:textColor="#000000"/>
+
+    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+            >
+        <RadioButton android:id="@+id/radio_diff_speed0"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="@string/label_difficulty_0"
+                     android:checked="true"
+                     android:background="@drawable/prefselector"
+                     android:button="@android:color/transparent"
+                     android:onClick="setSpeed0" android:padding="5dp" android:textColor="#000000"
+                     android:layout_margin="5dp"/>
+        <RadioButton android:id="@+id/radio_diff_speed1"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="@string/label_difficulty_1"
+                     android:background="@drawable/prefselector"
+                     android:button="@android:color/transparent"
+                     android:onClick="setSpeed1" android:textColor="#000000" android:padding="5dp"
+                     android:layout_margin="5dp"/>
+        <RadioButton android:id="@+id/radio_diff_speed2"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="@string/label_difficulty_2"
+                     android:background="@drawable/prefselector"
+                     android:button="@android:color/transparent"
+                     android:onClick="setSpeed2" android:textColor="#000000" android:padding="5dp"
+                     android:layout_margin="5dp"/>
+        <RadioButton android:id="@+id/radio_diff_speed3"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="@string/label_difficulty_3"
+                     android:background="@drawable/prefselector"
+                     android:button="@android:color/transparent"
+                     android:onClick="setSpeed3" android:padding="5dp" android:textColor="#000000"
+                     android:layout_margin="5dp"/>
+    </RadioGroup>
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_play"
+            android:id="@+id/buttonPlay" android:layout_gravity="center" android:layout_marginTop="20dp"
+            android:onClick="play" android:background="@drawable/numberbg" android:padding="10dp"
+            android:textColor="#000000"/>
+</LinearLayout>
+
